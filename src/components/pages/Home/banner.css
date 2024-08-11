@@ -1,0 +1,27 @@
+.carousel .slider-wrapper {
+  height: 805px;
+  
+}
+
+.carousel .thumb {
+  height: 40px;
+}
+
+/* for mobile devices */
+@media (max-width: 600px) {
+  .carousel .slider-wrapper {
+    height: 320px;
+    width: 100%;
+    
+  }
+  .carousel img{
+    height: 320px;
+  }
+  
+}
+.control-dots {
+    display: none;
+}
+.carousel .carousel-status{
+  display: none;
+}
